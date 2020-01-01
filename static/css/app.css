@@ -863,7 +863,7 @@ body > svg {
   padding-top: 60px;
   color: #fff;
   position: relative;
-  ransition: background 0.1s ease-in; }
+  transition: background 0.1s ease-in; }
 
 .big-letter {
   color: #ff5242;
