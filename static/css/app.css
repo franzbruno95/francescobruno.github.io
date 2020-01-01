@@ -1021,76 +1021,6 @@ ul.socials li a:hover {
   height: 100%;
   padding-top: 40px; }
 
-.circle-wrap {
-  border-radius: 0;
-  -webkit-mask-image: url(../../images/circle.svg);
-  -webkit-mask-position: center center;
-  -webkit-mask-size: 70% 70%;
-  -webkit-mask-repeat: no-repeat;
-  width: 100%;
-  height: 24.3vw;
-  overflow: hidden;
-  transition: all 0.2s ease; }
-
-.circle-wrap .media {
-  width: 100%;
-  height: 100%;
-  background-position: center center;
-  background-size: cover; }
-
-.circle-wrap .work-1 {
-  background-image: url(../../images/@stock/work-1.gif); }
-
-.circle-wrap .work-2 {
-  background-image: url(../../images/@stock/work-2.jpg); }
-
-.circle-wrap .work-3 {
-  background-image: url(../../images/@stock/work-3.jpg); }
-
-.circle-wrap .work-4 {
-  background-image: url(../../images/@stock/work-4.jpg); }
-
-.circle-wrap .work-5 {
-  background-image: url(../../images/@stock/work-5.jpg); }
-
-.circle-wrap .work-6 {
-  background-image: url(../../images/@stock/work-7.jpg); }
-
-.circle-wrap .work-7 {
-  background-image: url(../../images/@stock/work-11.gif); }
-
-.circle-wrap .work-8 {
-  background-image: url(../../images/@stock/work-8.jpg); }
-
-.circle-wrap .work-8 {
-  background-image: url(../../images/@stock/work-8.gif); }
-
-.circle-wrap .work-9 {
-  background-image: url(../../images/@stock/work-9.jpg); }
-
-.circle-wrap .work-10 {
-  background-image: url(../../images/@stock/work-10.jpg); }
-
-.circle-wrap .work-11 {
-  background-image: url(../../images/@stock/work-11.jpg); }
-
-.circle-wrap .work-12 {
-  background-image: url(../../images/@stock/work-12.jpg); }
-
-.circle-wrap .work-13 {
-  background-image: url(../../images/@stock/work-13.jpg); }
-
-.circle-wrap .work-14 {
-  background-image: url(../../images/@stock/work-12.gif); }
-
-.circle-wrap .work-15 {
-  background-image: url(../../images/@stock/work-15.gif); }
-
-.circle-wrap img {
-  position: absolute;
-  top: 40px;
-  left: 0; }
-
 .item .client-name {
   position: absolute;
   left: 50px;
@@ -1151,8 +1081,6 @@ ul.socials li a:hover {
   left: 0;
   opacity: 0; }
 
-.item:hover .circle-wrap {
-  -webkit-mask-size: 75% 75%; }
 
 .item:hover {
   background: #ff5242;
