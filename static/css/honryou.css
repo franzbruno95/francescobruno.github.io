@@ -29,7 +29,7 @@ svg #svg-about .path {
 svg#svg-graphic-about > rect {
   -webkit-mask: url(#about-mask);
   mask: url(#about-mask);
-  fill: #FEEF03; }
+  fill: #fff; }
 
 svg#svg-graphic-about .path {
   transform: scale(1);
