@@ -121,6 +121,7 @@
     .text-white {color:#FFF}
     .text-black {color:#000}
     .text-extra-dark-gray {color:#232323}
+    .text-extra-gray-y {color:#212A3A}
     .text-dark-gray {color:#626262}
     .text-extra-medium-gray {color:#757575}
     .text-medium-gray {color:#939393}
@@ -263,6 +264,7 @@
 
     .bg-transparent {background-color: transparent;}
     .bg-white {background-color:#fff;}
+    .bg-yellow {background-color:#FEEF03;}
     .bg-black {background-color:#000;}
     .bg-extra-dark-gray {background-color:#1c1c1c;}
     .bg-dark-gray {background-color:#757575;}
