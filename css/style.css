@@ -110,6 +110,7 @@
 
     /* text size */
     .text-extra-small {font-size:11px; line-height:14px}
+    .text-small-description {font-size:16px; line-height:7px}
     .text-small {font-size:12px; line-height:20px}
     .text-medium {font-size:16px; line-height:23px}
     .text-large {font-size:18px; line-height:26px}
@@ -1903,6 +1904,24 @@
     /* ===================================
         Icon
     ====================================== */
+
+    .social-icons {
+        text-align: right;
+        }  
+      .social-icons li {
+        display:inline-block;
+        list-style-type:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        }
+      .social-icons li a {
+        border-bottom: none;
+        }
+      .social-icons li img {
+        width:25px;
+        height:25px;
+        margin-right: 20px;
+      }
 
     /* icon size */
     .icon-very-small {font-size: 16px}
