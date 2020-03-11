@@ -9,7 +9,7 @@
 	$budget=$_POST["budget"];
 	
 	// Email Receiver Address
-	$receiver="francesco.bruno@francesco-bruno.it";
+	$receiver="francesco.bruno@francesco-bruno.com";
 	$subject="Contact form details";
 
 	$message = "
