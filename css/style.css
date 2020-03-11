@@ -1905,22 +1905,58 @@
         Icon
     ====================================== */
 
-    .social-icons {
+    .social-icons-right {
         text-align: right;
         }  
-      .social-icons li {
+      .social-icons-right li {
         display:inline-block;
         list-style-type:none;
         -webkit-user-select:none;
         -moz-user-select:none;
         }
-      .social-icons li a {
+      .social-icons-right li a {
         border-bottom: none;
         }
-      .social-icons li img {
+      .social-icons-right li img {
         width:25px;
         height:25px;
         margin-right: 20px;
+      }
+    
+      .social-icons-left {
+        text-align: left;
+        }  
+      .social-icons-left li {
+        display:inline-block;
+        list-style-type:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        }
+      .social-icons-left li a {
+        border-bottom: none;
+        }
+      .social-icons-left li img {
+        width:25px;
+        height:25px;
+        margin-right: 20px;
+      }
+
+      .social-icons-center {
+        text-align: center;
+        }  
+      .social-icons-center li {
+        display:inline-block;
+        list-style-type:none;
+        -webkit-user-select:none;
+        -moz-user-select:none;
+        }
+      .social-icons-center li a {
+        border-bottom: none;
+        }
+      .social-icons-center li img {
+        width:35px;
+        height:35px;
+        margin: 5px;
       }
 
     /* icon size */

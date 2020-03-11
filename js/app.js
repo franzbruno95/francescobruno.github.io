@@ -11,7 +11,7 @@
       submitHandler: function(form) {
         $.ajax({
           type: 'POST',
-          url: 'contact.php',
+          url: 'send.php',
           data: $(form).serialize(),
           success: function(data) {
             if(data.match(/success/)) {
