@@ -622,7 +622,7 @@
                   <p class="font-weight-400 text-extra-large alt-font text-extra-dark-gray bg-white parallax-title">Write me if you think you have a cool idea. We can working on it together.</p>
                 </div>
               <div class='form'>
-                <form action="Contact/Contact.php" method='post'>
+                <form action="Contact.php" method='POST'>
                   <div class="large-4 columns">
                     <input class='required' name='name' placeholder='NAME' type='text'>
                   </div>
@@ -634,10 +634,7 @@
                   </div>
                   <div class="large-12 columns">
                     <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-                    <input class='button white boxed contact-button' type='submit' value="Send it">
-                    <p id='thanks' class='hide'>
-                      Thanks for contacting us, we'll be in touch soon!
-                    </p>
+                    <button class='button white boxed contact-button' name='submit'>SEND MAIL</button>
                   </div>
                 </form>
               </div>
