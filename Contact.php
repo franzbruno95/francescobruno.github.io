@@ -1,10 +1,32 @@
-<?php 
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $emailFrom = $_POST['email'];
-    $message = $_POST['message'];
-
-    $mailTo = "francesco.bruno@francesco-bruno.com";
-    $headers =  "From: ".$emailFrom;
-    $txt = "You have received an e-mail from ".$name.".\n\n".$message;
+<?php
+$name = $_POST["name"];
+$email = $_POST["email"];
+$message = $_POST["message"];
+ 
+$EmailTo = "emailaddress@test.com";
+$Subject = "New Message Received";
+ 
+// prepare email body text
+$Body .= "Name: ";
+$Body .= $name;
+$Body .= "\n";
+ 
+$Body .= "Email: ";
+$Body .= $email;
+$Body .= "\n";
+ 
+$Body .= "Message: ";
+$Body .= $message;
+$Body .= "\n";
+ 
+// send email
+$success = mail($EmailTo, $Subject, $Body, "From:".$email);
+ 
+// redirect to success page
+if ($success){
+   echo "success";
+}else{
+    echo "invalid";
+}
+ 
 ?>

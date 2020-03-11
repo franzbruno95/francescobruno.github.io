@@ -1753,11 +1753,11 @@ $(document).ready(function () {
         if (error) {
             $.ajax({
                 type: "POST",
-                url: "project-contact.php",
+                url: "/project-contact.php",
                 data: $("#contact-form-2").serialize(),
                 success: function (result) {
-                    // Un-comment below code to redirect user to thank you page.
-                    //window.location.href="thank-you.html";
+                    
+                    window.location.href="thank-you.html";
 
                     $('input[type=text],textarea').each(function () {
                         $(this).val('');
