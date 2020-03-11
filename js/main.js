@@ -1708,7 +1708,7 @@ $(document).ready(function () {
         if (error) {
             $.ajax({
                 type: "POST",
-                url: "email-templates/contact.php",
+                url: "Contact.php",
                 data: $("#contact-form").serialize(),
                 success: function (result) {
                     // Un-comment below code to redirect user to thank you page.
@@ -1753,7 +1753,7 @@ $(document).ready(function () {
         if (error) {
             $.ajax({
                 type: "POST",
-                url: "email-templates/contact.php",
+                url: "Contact.php",
                 data: $("#contact-form-2").serialize(),
                 success: function (result) {
                     // Un-comment below code to redirect user to thank you page.
@@ -1798,7 +1798,7 @@ $(document).ready(function () {
         if (error) {
             $.ajax({
                 type: "POST",
-                url: "email-templates/contact.php",
+                url: "Contact.php",
                 data: $("#contact-form-3").serialize(),
                 success: function (result) {
                     // Un-comment below code to redirect user to thank you page.
