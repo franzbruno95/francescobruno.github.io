@@ -1753,7 +1753,7 @@ $(document).ready(function () {
         if (error) {
             $.ajax({
                 type: "POST",
-                url: "Contact.php",
+                url: "project-contact.php",
                 data: $("#contact-form-2").serialize(),
                 success: function (result) {
                     // Un-comment below code to redirect user to thank you page.

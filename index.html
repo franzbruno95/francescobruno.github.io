@@ -623,33 +623,36 @@
                 </div>
                 <ul class="social-icons">
                   <li><a href=mailto:francesco.bruno@francesco-bruno.it><img src="images/Mie/Icone/Postab.png"></li>
-                  <li><a href="https://www.instagram.com/_francesco__bruno_/?hl=it" target="_blank"><img src='images/Mie/Icone/Instab.png'/></a></li>
+                  <li><a href="https://www.instagram.com/_francesco__bruno_/?hl=it" target="_blank"><img src='images/Mie/Icone/instab.png'/></a></li>
                   <li><a href="https://www.youtube.com/channel/UCaBrGEK4MiWaVtgjsrpOHFg/featured?view_as=subscriber" target="_blank"><img src='images/Mie/Icone/Youb.png' /></a></li>
                   <li><a href="https://soundcloud.com/francesco_bruno" target="_blank"><img src="images/Mie/Icone/Soundb.png"/></a></li>
                   <li><a href="https://www.linkedin.com/in/francesco-bruno-18866a12b/" target="_blank"><img src="images/Mie/Icone/Linkb.png"/></a></li>
               </ul>
-              <div class='form'>
-                <form action="MAILTO:francesco.bruno@francesco-bruno.com" method='POST' enctype="text/plain">
-                  <div class="large-4 columns">
-                    <input class='required' name='name' placeholder='NAME' type='text'>
+        <!-- start form style 02 section -->
+        <section>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-7 col-sm-12 col-xs-12 center-col text-center margin-100px-bottom xs-margin-40px-bottom">
+                      <div class="position-relative overflow-hidden width-100">
+                          <span class="text-small text-outside-line-full alt-font font-weight-600 text-uppercase">Contact Form Style 02</span>
+                      </div>
                   </div>
-                  <div class="large-4 columns">
-                    <input class='required email' name='email' placeholder='EMAIL' type='text'>
-                  </div>
-                  <div class="large-4 columns">
-                    <input class='required' name='subject' placeholder='SUBJECT' type='text'>
-                  </div>
-                  <div class="large-12 columns">
-                    <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
-                    <input class='button white boxed contact-button' type='submit' value="Send it">
-                    <p id="thanks" class="hide">
-                      "
-                      Thanks for contacting us, we'll be in touch soon!
-                    "
-                    </p>
-                  </div>
-                </form>
               </div>
+              <form id="contact-form-2" action="javascript:void(0)" method="post">
+                  <div class="row">
+                      <div class="col-md-8 center-col text-center">
+                          <div id="success-contact-form-2" class="no-margin-lr"></div>
+                          <input type="text" name="name" id="name" placeholder="Name*" class="input-border-bottom">
+                          <input type="text" name="email" id="email" placeholder="E-mail*" class="input-border-bottom">
+                          <input type="text" id="subject" name="subject" placeholder="Subject" class="input-border-bottom">
+                          <textarea name="comment" id="comment"  placeholder="Your Message" class="input-border-bottom"></textarea>
+                          <button id="contact-us-button-2" type="submit" class="btn btn-small btn-deep-pink margin-30px-top xs-margin-three-top">send message</button>
+                      </div>
+                  </div>
+              </form>
+          </div>     
+      </section>
+      <!-- end form style 02 section -->
             </div>
         </div>
       </div>
