@@ -1,32 +1,16 @@
 <?php
-$name = $_POST["name"];
-$email = $_POST["email"];
-$message = $_POST["message"];
- 
-$EmailTo = "emailaddress@test.com";
-$Subject = "New Message Received";
- 
-// prepare email body text
-$Body .= "Name: ";
-$Body .= $name;
-$Body .= "\n";
- 
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
- 
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
- 
-// send email
-$success = mail($EmailTo, $Subject, $Body, "From:".$email);
- 
-// redirect to success page
-if ($success){
-   echo "success";
-}else{
-    echo "invalid";
-}
- 
+$name = $_POST['name'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$call = $_POST['call'];
+$website = $_POST['website'];
+$priority = $_POST['priority'];
+$type = $_POST['type'];
+$message = $_POST['message'];
+$formcontent=" From: $name \n Phone: $phone \n Call Back: $call \n Website: $website \n Priority: $priority \n Type: $type \n Message: $message";
+$recipient = "francesco.bruno@francesco-bruno.com";
+$subject = "Contact Form";
+$mailheader = "From: $email \r\n";
+mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
+echo "Thank You!";
 ?>
