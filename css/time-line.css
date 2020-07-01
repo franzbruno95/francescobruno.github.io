@@ -38,7 +38,7 @@
   font-weight: bold;
   top: .65em;
   display: block;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.5rem;
 }
 .timeline-item::after {
