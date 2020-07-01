@@ -58,7 +58,8 @@
     ====================================== */
 
     @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
-    @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+    @import url('https://fonts.googleapis.com/css?family=Josefin Sans:100,200,300,400,500,600,700,800,900');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:100;200;300;400;500;600;700&display=swap');
 
     /* ===================================
         Reset
@@ -96,7 +97,7 @@
     ====================================== */
 
     /* font family */
-    .alt-font {font-family: 'Montserrat', sans-serif; font-weight: 500}
+    .alt-font {font-family: 'Josefin Sans', sans-serif;}
     .main-font {font-family: 'Roboto', sans-serif;}
 
     /* heading */
@@ -427,7 +428,7 @@
         Button
     ====================================== */
 
-    .btn {display:inline-block; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Montserrat', sans-serif; font-weight: 600; transition-duration: 0.3s; transition-timing-function: ease-in-out}
+    .btn {display:inline-block; border:2px solid transparent; letter-spacing: .5px; line-height: inherit; border-radius: 0; text-transform: uppercase; width: auto; font-family: 'Josefin Sans', sans-serif; font-weight: 600; transition-duration: 0.3s; transition-timing-function: ease-in-out}
 
     /* button size */
     .btn.btn-very-small {font-size:9px; padding: 1px 17px; line-height: 22px;}
@@ -2240,7 +2241,7 @@
     .mfp-arrow-right:before {border-left: none; content: "\e628"; font-size: 2em; font-family: 'themify'; color: #fff;}
     .mfp-arrow-left:before {border-right: none; content: "\e629"; font-size: 2em; font-family: 'themify'; color: #fff;}
     .mfp-bottom-bar {margin-top: -24px; font-size: 12px}
-    .mfp-close {font-size: 36px; font-family: 'Montserrat', sans-serif; font-weight: 500}
+    .mfp-close {font-size: 36px; font-family: 'Josefin Sans', sans-serif; font-weight: 500}
 
     @-webkit-keyframes fadeIn {0% {opacity: 0;} 100% {opacity: 1;}}
     @-moz-keyframes fadeIn {0% {opacity: 0;} 100% {opacity: 1;}}
@@ -2996,7 +2997,7 @@
     .blog-grid .grid-item a img {width: 100%;}
 
     /* justified gallery */
-    .justified-gallery>a>.caption, .justified-gallery>div>.caption {padding:7px 15px; opacity: 0; display: initial !important; bottom: -20px;  transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 11px; text-transform: uppercase}
+    .justified-gallery>a>.caption, .justified-gallery>div>.caption {padding:7px 15px; opacity: 0; display: initial !important; bottom: -20px;  transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; -moz-transition: all 0.3s ease 0s; -ms-transition: all 0.3s ease 0s; -o-transition: all 0.3s ease 0s; font-family: 'Josefin Sans', sans-serif; font-weight: 600; font-size: 11px; text-transform: uppercase}
     .caption.caption-visible {opacity: 1; bottom: 0 !important}
 
     /* portfolio hover style */

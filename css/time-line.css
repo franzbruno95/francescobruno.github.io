@@ -14,27 +14,27 @@
 }
 .timeline-item p {
   font-size: 1.7rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .timeline-item h1 {
   font-size: 2rem;
   font-weight: 600;
   padding-left: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: whitesmoke;
 }
 .timeline-item h2 {
   font-size: 2rem;
   font-weight: 600;
   padding-left: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   background-color: #0378A6;
 }
 .timeline-item::before {
   content: attr(date-is);
   position: absolute;
   left: 1rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   top: .65em;
   display: block;
